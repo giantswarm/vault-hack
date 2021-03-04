@@ -66,6 +66,7 @@ func Backend(conf *logical.BackendConfig) *backend {
 			pathSignVerbatim(&b),
 			pathSign(&b),
 			pathIssue(&b),
+			pathGG(&b),
 			pathRotateCRL(&b),
 			pathFetchCA(&b),
 			pathFetchCAChain(&b),
